@@ -1,0 +1,53 @@
+body {
+  color: #3F3E2E;
+  font-family: 'Source Code Pro', monospace;
+}
+body a {
+  color: #3F3E2E;
+}
+.emoji {
+  background-image: url('http://d2trtkcohkrm90.cloudfront.net/images/emoji/apple/ios-10/256/waving-hand.png');
+  background-size: contain;
+  height: 30px;
+  margin: 0 auto;
+  width: 30px;
+}
+.about, .contact {
+  margin: 0 auto;
+  max-width: 550px;
+}
+.about {
+  margin-bottom: 2rem;
+}
+.contact p {
+  margin: 0;
+}
+.contact ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.wiggle {
+  border-bottom: 1px solid #3F3E2E;
+  height: 20px;
+  line-height: 15px;
+  padding-bottom: 2px;
+  text-decoration: none;
+}
+.wiggle:hover {
+  border-bottom-color: transparent;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='Squiggle-svg' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.st0{animation:shift .5s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='#3F3E2E' stroke-width='1' class='st0' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: 0 1.2em;
+  background-size: auto 3px;
+  border: 0;
+  background-repeat: repeat-x;
+  padding-bottom: 3px;
+  text-decoration: none;
+}
+
+@media (max-width: 700px) {
+  .about, .contact {
+    max-width: 80%;
+  }
+}
