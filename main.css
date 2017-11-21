@@ -39,6 +39,9 @@ main {
 .contact ul a {
   margin: 0 5px;
 }
+.contact ul a:first-child {
+  margin-left: 0;
+}
 .wiggle {
   border-bottom: 1px solid #3F3E2E;
   display: inline-block;
