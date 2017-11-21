@@ -27,37 +27,6 @@ main {
 .about {
   margin-bottom: 2rem;
 }
-.email {
-  position: relative;
-  top: 14px;
-}
-.email:hover {
-  cursor: pointer;
-}
-.email .click-copy {
-  display: block;
-  font-size: .75rem;
-  opacity: .75;
-  position: relative;
-  text-align: center;
-  top: 15px;
-  transition: .5s all;
-}
-.email.copied .click-copy {
-  opacity: 0;
-}
-.email .copy-success {
-  background: radial-gradient(circle at center, rgba(255, 255, 255, 1), rgba(255, 255, 255, .7)  100%);
-  bottom: 7px;
-  opacity: 0;
-  position: absolute;
-  text-align: center;
-  transition: .5s all;
-  width: 100%;
-}
-.email.copied .copy-success {
-  opacity: 1;
-}
 .contact p {
   margin: 0;
 }
