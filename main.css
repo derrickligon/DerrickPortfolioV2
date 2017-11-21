@@ -1,9 +1,17 @@
 body {
   color: #3F3E2E;
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'Graphik Web', monospace;
+  line-height: 1.5rem;
+  margin: 0;
 }
 body a {
   color: #3F3E2E;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  height: 95vh;
+  justify-content: center;
 }
 .emoji {
   background-image: url('http://d2trtkcohkrm90.cloudfront.net/images/emoji/apple/ios-10/256/waving-hand.png');
@@ -14,7 +22,7 @@ body a {
 }
 .about, .contact {
   margin: 0 auto;
-  max-width: 550px;
+  width: 550px;
 }
 .about {
   margin-bottom: 2rem;
@@ -25,11 +33,12 @@ body a {
 .contact ul {
   display: flex;
   list-style: none;
-  margin: 0;
+  margin: 1.5rem 0 0 0;
   padding: 0;
 }
 .wiggle {
   border-bottom: 1px solid #3F3E2E;
+  display: inline-block;
   height: 20px;
   line-height: 15px;
   padding-bottom: 2px;
@@ -37,9 +46,9 @@ body a {
 }
 .wiggle:hover {
   border-bottom-color: transparent;
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='Squiggle-svg' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.st0{animation:shift .5s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='#3F3E2E' stroke-width='1' class='st0' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='Squiggle-svg' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 6'%3E%3Cstyle type='text/css'%3E.st0{animation:shift .5s linear infinite; overflow: visible;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='#3F3E2E' stroke-width='1' class='st0' d='M0,5.5 C5,5.5 5,0.5 10,0.5 C15,0.5 15,5.5 20,5.5 C25,5.5 25,0.5 30,0.5 C35,0.5 35,5.5 40,5.5'/%3E%3C/svg%3E");
   background-position: 0 1.2em;
-  background-size: auto 3px;
+  background-size: auto 4px;
   border: 0;
   background-repeat: repeat-x;
   padding-bottom: 3px;
